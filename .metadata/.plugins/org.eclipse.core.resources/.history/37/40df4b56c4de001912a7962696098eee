@@ -1,0 +1,13 @@
+
+public class Main {
+    public static void main(String[] args){
+
+        //interface의 선언만 불러와 출력
+        Goodinterface goodinterface = new GoodinterfaceImpl();
+        goodinterface.funGood();
+
+        //GoodObj 객체의 메소드를 불러와 Goodinterface 객체의 선언 부분의 출력
+        GoodObj goodObj = new GoodObj();
+        goodObj.funGoodDelegate();
+    }
+}
