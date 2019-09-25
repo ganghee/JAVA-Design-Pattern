@@ -1,0 +1,17 @@
+package app;
+
+public class AdapterImpl implements Adapter {
+
+	@Override
+	public Float twiceOf(Float f) {
+		
+		return (float) Math.twoTime(f);;
+	}
+
+	@Override
+	public Float halfOf(Float f) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

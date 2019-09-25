@@ -1,0 +1,26 @@
+
+public class DefaultGameConnectHelper extends AbstGameConnecHelper {
+
+	protected String doSecurity(String string) {
+		System.out.println("디코드 ");
+		return string;
+	}
+
+	protected boolean authentication(String id, String pw)
+		System.out.println("아이디 비밀번호 확인 ");
+		return false;
+	}
+
+	@Override
+	protected int authrization(String userName) {
+		System.out.println("권한 확인 ");
+		return 0;
+	}
+
+	@Override
+	protected String connection(String info) {
+		System.out.println("마지막 접속단계 ");
+		return null;
+	}
+
+}

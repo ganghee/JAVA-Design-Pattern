@@ -27,6 +27,8 @@ PROPERTY_NAME=255,0,255
 PROPERTY_VALUE=242,0,255
 PSEUDO=89,179,179
 RESOLVED_COLOR=104,203,16
+SAVE_AUTOMATICALLY=true
+SAVE_AUTOMATICALLY_INTERVAL=1
 SCRIPT_AREA_BORDER=227,113,75
 SELECTOR=89,179,179
 STRING=242,0,255
@@ -148,6 +150,7 @@ org.eclipse.pde.genericeditor.extension.editor.color.quote=118,200,244
 org.eclipse.pde.genericeditor.extension.editor.color.tag=86,156,214
 org.eclipse.pde.genericeditor.extension.editor.color.text=207,212,216
 org.eclipse.search.ui.match.highlight=73,83,90
+org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands/>
 org.eclipse.ui.editors.backgroundColor=0,0,0
 org.eclipse.ui.editors.currentLineColor=7,8,8
 org.eclipse.ui.editors.findScope=62,70,76
