@@ -5,6 +5,7 @@
 *.o
 *.so
 *.metadata/
+.metadata/
  
 # Packages #
 ############
