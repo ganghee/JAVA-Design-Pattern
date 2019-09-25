@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 5 elements to &apos;Strategy Pattern/src/app&apos;&#x0A;- Original project: &apos;JAVA Design Pattern&apos;&#x0A;- Destination element: &apos;Strategy Pattern/src/app&apos;&#x0A;- Original elements:&#x0A;     Sword.java&#x0A;     Knife.java&#x0A;     Main.java&#x0A;     Weapon.java&#x0A;     GameCharacter.java" description="Copy compilation units" destination="=Strategy Pattern/src&lt;app" element1="/strategy pattern\/app&lt;{Sword.java" element2="/strategy pattern\/app&lt;{Knife.java" element3="/strategy pattern\/app&lt;{Main.java" element4="/strategy pattern\/app&lt;{Weapon.java" element5="/strategy pattern\/app&lt;{GameCharacter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1569328689016" units="5" version="1.0"/>
-</session>

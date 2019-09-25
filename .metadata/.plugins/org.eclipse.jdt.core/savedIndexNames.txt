@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+/Users/ganghee/JAVA Design Pattern/.metadata/.plugins/org.eclipse.jdt.core
-4126463412.index
-3410692278.index
-3917831645.index
-1971408661.index
