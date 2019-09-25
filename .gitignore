@@ -6,6 +6,7 @@
 *.so
 *.metadata/
 .metadata/
+.gitignore
  
 # Packages #
 ############
