@@ -6,31 +6,31 @@
 ### 목차
 
 1. 생성 패턴 (Creational Pattern)
-    * [추상 팩토리(Abstract Factory)](#추상팩토리)
-    * [팩토리(Factory Method)](#팩토리)
-    * [빌더(Builder)](#빌더)
-    * [프로토타입(Prototype)](#프로토타입)
-    * [싱글톤(Singleton)](#싱글톤)
+    * [추상팩토리(Abstract Factory)](#1-추상팩토리abstract-factory)
+    * [팩토리(Factory Method)](#2-팩토리-메서드factory-method)
+    * [빌더(Builder)](#3-빌더builder)
+    * [프로토타입(Prototype)](#4-프로토타입prototype)
+    * [싱글톤(Singleton)](#5-싱글톤sigleton)
 2. 구조 패턴 (Structural Pattern)
-    * [어댑터(Adapter)](#어댑터)
-    * [브리지(Bridge)](#브리지)
-    * [컴포지트(Composite)](#컴포지트)
-    * [데코레이터(Decorator)](#데코레이터)
-    * [파사드(Facade)](#파사드)
-    * [플라이웨이트(Flyweight)](#플라이웨이트)
-    * [프록시(Proxy)](#프록시)
+    * [어댑터(Adapter)](#1-어댑터adapter)
+    * [브리지(Bridge)](#2-브리지bridge)
+    * [컴포지트(Composite)](#3-컴포지트composite)
+    * [데코레이터(Decorator)](#4-데코레이터decorator)
+    * [파사드(Facade)](#5-파사드pacade)
+    * [플라이웨이트(Flyweight)](#6-플라이웨이트fly-weight)
+    * [프록시(Proxy)](#7-프록시proxy)
 3. 행위 패턴 (Behavioral Pattern)
-    * [책임체인(Chain of Responsibility)](#책임체인)
-    * [커맨드(Command)](#커맨드)
-    * [인터프리터(Interpreter)](#인터프리터)
-    * [반복자(Iterator)](#반복자)
-    * [중재자(Mediator)](#중재자)
-    * [메멘토(Memento)](#메멘토)
-    * [옵저버(Observer)](#옵저버)
-    * [상태(State)](#상태)
-    * [전략(Strategy)](#전략)
-    * [템플릿 메소드(Template Method)](#템플릿메소드)
-    * [방문자(Visitor)](#방문자)
+    * [책임체인(Chain of Responsibility)](#1-책임체인chain-of-responsibility)
+    * [커맨드(Command)](#2-커멘드commend)
+    * [인터프리터(Interpreter)](#3-인터프리터interpreter)
+    * [반복자(Iterator)](#4-반복자iterator)
+    * [중재자(Mediator)](#5-중재자mediator)
+    * [메멘토(Memento)](#6-메멘토memento)
+    * [옵저버(Observer)](#7-옵저버observer)
+    * [상태(State)](#8-상태state)
+    * [전략(Strategy)](#9-전략strategy)
+    * [템플릿 메소드(Template Method)](#10-템플릿메소드template-method)
+    * [방문자(Visitor)](#11-방문자visitor)
 ***
 
 
@@ -123,23 +123,27 @@
 
   - 서로 전혀 다른 객체간에  상호 통신이 매우 복잡할때 중재자를 통해 객체간의 통신을 가능하도록 캡슐화하는 방법
 
-> #### 6. 옵저버(Observer)
+> #### 6. 메멘토(Memento)
+
+  -  객체의 상태 정보를 저장하고 사용자의 필요에 의하여 원하는 시점의 데이터를 복원 할 수 있는 패턴.
+
+> #### 7. 옵저버(Observer)
 
   - 주 객체의 변경이 일어날때마다 상태를 확인할수 있는 리스너 객체가 있다고 가정하고, 리스너 객체를 주객체에 등록하여 객체에 변경이 일어날때마다 리스너 객체의 함수가 불리게 되도록 하는 방식.
 
-> #### 7. 상태(State)
+> #### 8. 상태(State)
 
   - 상태패턴은 주체 객체에게 여러개의 상태가 존재하고, 상태간에 긴밀한 연결성이 있을 경우에 상태간의 전이를 용이하게 해주는 패턴이다.
   
-> #### 8. 전략(Strategy)
+> #### 9. 전략(Strategy)
 
   - 일반적으로는 객체의 메소드에 대한 알고리즘이 미리 정해져있고, 정해진 알고리즘에 따라 어플리케이션 수행중에 그 메소드가 불리면 정해진 알고리즘이 불리게 된다.
 
-> #### 9. 템플릿메소드(Template Method)
+> #### 10. 템플릿메소드(Template Method)
 
   - 어떤 알고리즘이 잘 구현된것이 있는데, 이것을 상황에 맞게 조금씩 다르게 확장해야 하는 경우에 유용한 패턴이다.
   
-> #### 10. 방문자(Visitor)
+> #### 11. 방문자(Visitor)
 
   - 방문자 패턴은 여러 객체들에 대해 객체의 동작들을 지정하는 방식(N:N) 이다.
 
